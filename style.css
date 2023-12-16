@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: cadetblue;
+}
+.main{
+    background: linear-gradient(0deg, rgba(195,34,83,0.16299019607843135) 0%, rgba(253,93,45,0.6587885154061625) 100%);
+    width: 18vw;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+input{
+    padding: 5px 10px ;
+    border: none;
+    border-radius: 5px;
+}
+#age{
+    margin-left: 10px;
+}
+
+.main button{
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: orangered;
+    border: none;
+    color: #ffff;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 35%, rgba(0,212,255,1) 100%);
+    transition: 4s;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display button{
+    padding:5px 8px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border:none;
+    background-color: rgb(95, 220, 139);
+    color: #ffff;
+    border-radius: 10px;
+}
+#userdata{
+    border: 1px solid black;
+    margin: 10px auto;
+    
+}
